@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:paddingRight="5dp"
+        android:paddingLeft="11dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:text="Selamat bekerja dan berkarya! "
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15ssp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/dataMasuk"
+        android:layout_width="349dp"
+        android:layout_height="134dp"
+        android:src="@drawable/menudata"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView2"
+        tools:layout_editor_absoluteX="62dp" />
+
+    <TextView
+        android:id="@+id/menuDataMasuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Masuk"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/dataMasuk"
+        app:layout_constraintEnd_toEndOf="@+id/dataMasuk"
+        app:layout_constraintHorizontal_bias="0.599"
+        app:layout_constraintStart_toStartOf="@+id/dataMasuk"
+        app:layout_constraintTop_toTopOf="@id/dataMasuk"
+        app:layout_constraintVertical_bias="0.42" />
+
+    <ImageView
+        android:id="@+id/dataValid"
+        android:layout_width="349dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/datavalid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dataMasuk" />
+    <TextView
+        android:id="@+id/menuDataValid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Valid"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/dataValid"
+        app:layout_constraintEnd_toEndOf="@+id/dataValid"
+        app:layout_constraintHorizontal_bias="0.599"
+        app:layout_constraintStart_toStartOf="@+id/dataValid"
+        app:layout_constraintTop_toTopOf="@id/dataValid"
+        app:layout_constraintVertical_bias="0.42" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
