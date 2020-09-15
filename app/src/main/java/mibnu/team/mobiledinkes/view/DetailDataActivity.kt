@@ -94,7 +94,7 @@ class DetailDataActivity : AppCompatActivity() {
         btnYes.setOnClickListener {
             val id = getPassedData()?.kodeBerkas!!
 
-            if (opsi2.isChecked()){
+            if (opsi1.isChecked()){
                 keterangan_II = resources.getString(R.string.opsiSatu)
             }
             val confirmedII = true
