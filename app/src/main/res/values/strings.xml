@@ -16,7 +16,7 @@
     <string name="akta_kematian">AKTA Kematian</string>
     <string name="surat_pernyataan_waris">Surat Pernyataan Waris</string>
     <string name="pakta_integritas_ahli_waris">Pakta Integritas Ahli Waris</string>
-    <string name="opsiSatu">Berkas Diterima Dana Ditransfer cek 1 x 24 jam</string>
+    <string name="opsiSatu">Berkas Diterima, Dana akan ditransfer dalam waktu 1 x 24 jam</string>
     <string name="opsiDua">Berkas Di tolak silahkan melakukan pengiriman ulang berkas</string>
     <string name="buku_tabungan">Buku Tabungan</string>
     <string name="title">Bandu</string>
